@@ -5,7 +5,7 @@ A progressive web app to help practice guitar. Dynamically generates svg diagram
 ### Dependencies
 
 - Node.js
-- Gatsby `npm i -g gatsby-cli
+- Gatsby `npm i -g gatsby-cli`
 
 ### Install
 
