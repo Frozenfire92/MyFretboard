@@ -1,0 +1,10 @@
+{
+  "id": "f-major",
+  "placements": [0, 0, 2, 3, 3, 0],
+  "fingerings": [0, 0, 2, 4, 3, 0],
+  "bar": {
+    "start": 1,
+    "end": 6,
+    "fret": 1
+  }
+}

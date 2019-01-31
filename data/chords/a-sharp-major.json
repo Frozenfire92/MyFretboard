@@ -1,0 +1,10 @@
+{
+    "id": "a-sharp-major",
+    "placements": [0, 3, 3, 3, 0, null],
+    "fingerings": [0, 4, 3, 2, 0, 0],
+    "bar": {
+      "start": 1,
+      "end": 5,
+      "fret": 1
+    }
+}

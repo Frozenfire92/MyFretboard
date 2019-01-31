@@ -1,0 +1,11 @@
+{
+    "id": "c-major",
+    "placements": [0, 1, 0, 2, 3, null],
+    "fingerings": [0, 1, 0, 2, 3, 0],
+    "variations": [
+      {
+        "placements": [0, 5, 5, 5, 0, 0],
+        "fingerings": [0, 4, 3, 2, 0, 0]
+      }
+    ]
+  }
