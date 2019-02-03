@@ -1,5 +1,7 @@
 # MyFretboard
 
+[![Build Status](https://travis-ci.com/Frozenfire92/MyFretboard.svg?branch=master)](https://travis-ci.com/Frozenfire92/MyFretboard)
+
 A progressive web app to help practice guitar. Dynamically generates svg diagrams you can print or download.
 
 ### Dependencies
