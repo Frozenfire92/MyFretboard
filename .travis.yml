@@ -19,5 +19,4 @@ jobs:
 
 stages:
   - test
-  - build
   - deploy
