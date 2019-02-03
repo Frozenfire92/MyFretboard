@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - 10
+
+jobs:
+  include:
+    - stage: test
+      script: npm test
+    - stage: build
+      script: npm run build-prefix
+    - stage: deploy
+      script: skip
+      deploy:
+        provider: pages
+        local-dir: public
+        skip-cleanup: true
+        github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+        keep-history: true
+        on:
+          branch: master
+
+stages:
+  - test
+  - build
+  - deploy

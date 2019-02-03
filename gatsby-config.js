@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/MyFretboard',
   plugins: [
     'gatsby-transformer-json',
     {

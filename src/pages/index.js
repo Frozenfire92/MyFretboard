@@ -24,9 +24,9 @@ export const query = graphql`
   }
 `;
 
-export default ({ data }) => (
-  <App path={this.props["*"]}>
-    <p>{data.site.siteMetadata.description}</p>
-    <FretBoard chord={data.chord} />
+export default (props) => (
+  <App path={props["*"]}>
+    <p>{props.data.site.siteMetadata.description}</p>
+    <FretBoard chord={props.data.chord} />
   </App>
 );
