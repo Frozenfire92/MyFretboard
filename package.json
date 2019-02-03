@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "gatsby": "^2.0.76",
+    "gatsby-plugin-manifest": "^2.0.17",
+    "gatsby-plugin-offline": "^2.0.22",
     "gatsby-source-filesystem": "^2.0.16",
     "gatsby-transformer-json": "^2.1.7",
     "prop-types": "^15.6.2",
