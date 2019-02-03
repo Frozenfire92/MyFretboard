@@ -79,8 +79,7 @@ export default class App extends Component {
         return JSON.parse(local);
       }
     }
-    catch (error) {
-      console.error('couldn\'t load', error);
+    catch {
       return { settings: defaultSettings };
     }
   }
