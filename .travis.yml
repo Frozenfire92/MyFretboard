@@ -6,10 +6,8 @@ jobs:
   include:
     - stage: test
       script: npm test
-    - stage: build
-      script: npm run build-prefix
     - stage: deploy
-      script: skip
+      script: npm run build-prefix
       deploy:
         provider: pages
         local-dir: public
