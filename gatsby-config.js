@@ -13,7 +13,7 @@ module.exports = {
       options: {
         name: 'My Fretboard',
         short_name: 'MyFretboard',
-        start_url: '/',
+        start_url: '/MyFretboard/',
         background_color: '#f7f0eb',
         theme_color: '#a2466c',
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
