@@ -22,6 +22,7 @@ export default class ChordDiagram extends Component {
       : 400;
     return (
       <FretBoard
+        isChordDiagram={true}
         chord={this.props.chord}
         fretCount={6}
         width={width}
@@ -29,6 +30,17 @@ export default class ChordDiagram extends Component {
         startAtBarOrMin={true}
         displayLabelInBar={this.props.showFretBarLabel}
         displayLabelAtFret={true}
+        hand={this.props.hand}
+        stringColor={this.props.stringColor}
+        fretColor={this.props.fretColor}
+        fingerColor={this.props.fingerColor}
+        fingerBorderColor={this.props.fingerBorderColor}
+        fingerTextColor={this.props.fingerTextColor}
+        fretMarkerColor={this.props.fretMarkerColor}
+        fretMarkerBorderColor={this.props.fretMarkerBorderColor}
+        fretMarkerOpacity={this.props.fretMarkerOpacity}
+        showFingerNumberLabel={this.props.showFingerNumberLabel}
+        showFretMarkers={this.props.showFretMarkers}
       />
     );
   }

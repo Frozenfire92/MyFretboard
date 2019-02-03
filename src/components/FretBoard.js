@@ -27,7 +27,8 @@ class FretBoard extends Component {
     fretMarkerBorderColor: PropTypes.string,
     fretMarkerOpacity: PropTypes.any, // string/num
     showFingerNumberLabel: PropTypes.bool,
-    showFretMarkers: PropTypes.bool
+    showFretMarkers: PropTypes.bool,
+    isChordDiagram: PropTypes.bool
   }
 
   static defaultProps = {
@@ -53,7 +54,8 @@ class FretBoard extends Component {
     fretMarkerBordercolor: '#666666',
     fretMarkerOpacity: 0.3,
     showFingerNumberLabel: true,
-    showFretMarkers: true
+    showFretMarkers: true,
+    isChordDiagram: false
   }
 
   minX() { return this.props.padding; }
@@ -355,9 +357,11 @@ class FretBoard extends Component {
     const width = this.props.isVertical ? this.props.height : this.props.width;
     const height = this.props.isVertical ? this.props.width : this.props.height;
 
+    const className = `fret-board${this.props.isChordDiagram ? ' chord-diagram' : ''}`;
+
     return (
       <svg
-        className="fret-board"
+        className={className}
         viewBox={`0 0 ${width} ${height}`}
       >
         {stringElements}

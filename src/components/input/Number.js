@@ -29,7 +29,7 @@ class Color extends Component {
           value={this.props.value}
           onChange={(e) => { this.handleChange(e); }}
         />
-        {this.props.label}
+        &nbsp;{this.props.label}
       </label>
     );
   }

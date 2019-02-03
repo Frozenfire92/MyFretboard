@@ -1,0 +1,8 @@
+main.settings section label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+main.settings .chord-diagram {
+  width: 100%;
+}

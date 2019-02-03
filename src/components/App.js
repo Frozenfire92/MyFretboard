@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Link, StaticQuery, graphql } from 'gatsby';
 
+import '../styles/utils/reset.css';
+import '../styles/utils/global.css';
+import '../styles/components/App.css';
+
 const defaultSettings = {
   hand: 'right',
   stringColor: '#000000',
@@ -148,7 +152,7 @@ export default class App extends Component {
                 <Link to="/settings">Settings</Link>
               </nav>
             </header>
-            <main>
+            <main className={this.props.path}>
               {this.props.children}
             </main>
           </Provider>

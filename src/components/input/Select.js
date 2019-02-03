@@ -19,7 +19,7 @@ class Select extends Component {
         <select value={this.props.value} onChange={(e) => {this.handleChange(e);}} >
           {this.props.options.map((n) => (<option key={n.value} value={n.value}>{n.label}</option>))}
         </select>
-        {this.props.label}
+        &nbsp;{this.props.label}
       </label>
     );
   }

@@ -1,0 +1,9 @@
+.card {
+  border: 1px dashed rgba(66,66,66,0.2);
+  padding: 0.5rem;
+  margin: 0.5rem 0.25rem;
+}
+
+.card h3 {
+  text-align: center;
+}

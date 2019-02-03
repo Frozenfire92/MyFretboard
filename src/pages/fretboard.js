@@ -6,7 +6,7 @@ import Select from '../components/input/Select';
 export default class FretboardPage extends Component {
   render() {
     return (
-      <App>
+      <App path={this.props["*"]}>
         <Consumer>
           {({ settings, data, updateChord, state }) => {
             return (
